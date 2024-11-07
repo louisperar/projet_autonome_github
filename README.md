@@ -39,7 +39,7 @@ Phase 3 : Déploiement et intégration continue
 - **Flexibilité** : Le backlog peut être ajusté à tout moment pour refléter les changements de priorités ou de besoins, ce qui est essentiel dans un environnement agile.
 - **Planification** : Il aide les équipes à planifier leur travail de manière réaliste, en leur fournissant une feuille de route claire des tâches à accomplir.
 
-Pour créer le backlog, je me suis aidé du site [blog-gestion-de-projet.com](https://blog-gestion-de-projet.com/) et de [poe.com] (https://poe.com/).
+Pour créer le backlog, je me suis aidé du site [blog-gestion-de-projet.com](https://blog-gestion-de-projet.com/) et de [poe.com](https://poe.com/).
 Voic les étapes clés pour le créer :
 1. Définition de l'objectif du backlog. C'est-à-dire, identifier le but, la durée de projet. Pour déterminer les types d'éléments à y inclure.
 2. Rassembler les parties prenantes. Tout le monde y est inclu, les utilisateurs, les clients et les membres de l'équipe.
@@ -52,7 +52,7 @@ Voic les étapes clés pour le créer :
 9. Communication. La partie importante, le partage à toutes les parties prenantes et s'assurer la bonne compréhension.
 #### Construction du Backlog de ce projet
 Voici donc à quoi ressemble le Backlog de ce projet :
-![alt text](image.png)
+![alt text](backlog.png)
 Il est constitué de 4 **EPICS** qui sont eux constitué de **USER STORIES** comme sur l'image supérieur. Un **EPIC** représente une objetif pour l'utilisateur d'un point de vue macro, une **USER STORIES** décrit les exigences pour les fonctionnalités nécessaires: 
 1. Documentation (EPIC)
    1. Création d'un backlog (USER STORIES) : Lecture du sujet et définition des besoins et spécifications pour le projet.
@@ -73,4 +73,4 @@ Il est constitué de 4 **EPICS** qui sont eux constitué de **USER STORIES** com
    3. Test de déploiement
 
 ### Utilisation de trello pour répertorier les ressources, sites et documents utilisé ainsi que d'établir le plan de travail
-J'ai utilisé Trello pour répertorier les ressources, sites et documents utilisés ainsi que d'établir le plan de travail. Voici, en image, à quoi ressemble le trello : ![alt text](image-1.png) et voici le lien pour y accéder [trello.com] (https://trello.com/invite/b/66d58460f25a074c62a46399/ATTI543ffb3c3eb33389026ff6ec6f4ab1d6069CF7A8/projet-autonome)
+J'ai utilisé Trello pour répertorier les ressources, sites et documents utilisés ainsi que d'établir le plan de travail. Voici, en image, à quoi ressemble le trello : ![alt text](trello.png) et voici le lien pour y accéder [trello.com](https://trello.com/invite/b/66d58460f25a074c62a46399/ATTI543ffb3c3eb33389026ff6ec6f4ab1d6069CF7A8/projet-autonome)
