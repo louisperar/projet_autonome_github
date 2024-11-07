@@ -30,7 +30,7 @@ Phase 3 : Déploiement et intégration continue
 ### Définition du backlog
 #### Qu'est-ce qu'un **Backlog**?
 - Voici le concept général d'un backlog :
- - Un backlog est une liste d'éléments ou de tâches à réaliser qui sont mise en priorité. Il représente le travail à faire pour un projet ou un produit. Il est souvent sous la formes de fonctionnalités, de corrections de bug ou bien d'autre exigences.
+  - Un backlog est une liste d'éléments ou de tâches à réaliser qui sont mise en priorité. Il représente le travail à faire pour un projet ou un produit. Il est souvent sous la formes de fonctionnalités, de corrections de bug ou bien d'autre exigences.
 - Il existe deux types de backlogs : 
   - Le **Product Backlog** : correspond à la liste des fonctionnalités, amélioration et corrections que l'on veut faire au produit. Il doit-être régulièrement mis à jour suivant les retours des utilisateurs, des nouvelles idées et les changements de priorité.
   - Le **Sprint Backlog** : correspond à une sous-liste du **Product Backlog** qui contient les éléments sélectionnés pour être réaliser durant un sprint spécifique. Il inclut également les tâches nécessaires pour le développement de ces éléments.
