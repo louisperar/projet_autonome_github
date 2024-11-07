@@ -28,5 +28,6 @@ Phase 3 : Déploiement et intégration continue
 
 # Phase 1
 ### Définition du backlog
+#### Qu'est-ce qu'un **Backlog**?
 Pour créer le backlog, je me suis aidé du site [blog-gestion-de-projet.com](https://blog-gestion-de-projet.com/). Voici donc à quoi ressemble le Backlog de ce projet :
 ![alt text](image.png)
