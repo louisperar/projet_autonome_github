@@ -29,5 +29,22 @@ Phase 3 : Déploiement et intégration continue
 # Phase 1
 ### Définition du backlog
 #### Qu'est-ce qu'un **Backlog**?
-Pour créer le backlog, je me suis aidé du site [blog-gestion-de-projet.com](https://blog-gestion-de-projet.com/). Voici donc à quoi ressemble le Backlog de ce projet :
+- Voici le concept général d'un backlog :
+ - Un backlog est une liste d'éléments ou de tâches à réaliser qui sont mise en priorité. Il représente le travail à faire pour un projet ou un produit. Il est souvent sous la formes de fonctionnalités, de corrections de bug ou bien d'autre exigences.
+- Il existe deux types de backlogs : 
+  - Le **Product Backlog** : correspond à la liste des fonctionnalités, amélioration et corrections que l'on veut faire au produit. Il doit-être régulièrement mis à jour suivant les retours des utilisateurs, des nouvelles idées et les changements de priorité.
+  - Le **Sprint Backlog** : correspond à une sous-liste du **Product Backlog** qui contient les éléments sélectionnés pour être réaliser durant un sprint spécifique. Il inclut également les tâches nécessaires pour le développement de ces éléments.
+#### L'importance du Backlog
+- **Transparence** : Le backlog offre une visibilité sur le travail à accomplir, permettant à toutes les parties prenantes de comprendre les priorités et l'état d'avancement du projet.
+- **Flexibilité** : Le backlog peut être ajusté à tout moment pour refléter les changements de priorités ou de besoins, ce qui est essentiel dans un environnement agile.
+- **Planification** : Il aide les équipes à planifier leur travail de manière réaliste, en leur fournissant une feuille de route claire des tâches à accomplir.
+
+Pour créer le backlog, je me suis aidé du site [blog-gestion-de-projet.com](https://blog-gestion-de-projet.com/) et de [poe.com] (https://poe.com/).
+Voic les étapes clés pour le créer :
+1. Définition de l'objectif du backlog. C'est-à-dire, identifier le but, la durée de projet. Pour déterminer les types d'éléments à y inclure.
+2. Rassembler les parties prenantes. Tout le monde y est inclu, les utilisateurs, les clients et les membres de l'équipe.
+3. Identification des éléments à inclute. Lister toutes les fonctionnalités, améliorations, correction de bogues et d'autre exigences.
+4. Rédaction des User stories. Ce mettre à la place d'une personne et dire les fonctionnalités qu'elle a.
+5. Priorisation des éléments. Etablissement d'une hiérarchie 
+Voici donc à quoi ressemble le Backlog de ce projet :
 ![alt text](image.png)
