@@ -46,5 +46,28 @@ Voic les étapes clés pour le créer :
 3. Identification des éléments à inclute. Lister toutes les fonctionnalités, améliorations, correction de bogues et d'autre exigences.
 4. Rédaction des User stories. Ce mettre à la place d'une personne et dire les fonctionnalités qu'elle a.
 5. Priorisation des éléments. Etablissement d'une hiérarchie 
+6. Estimation des efforts. Evaluation du tempsx des ressources et des efforts pour réaliser chaque éléments.
+7. Organisation du Backlog. Choix du produit utilisé ou de la base, application ou un simple tableau. Les éléments doivent être clairement identifiés et facile à comprendre.
+8. Affinage du Backlog régulier. Pour ajuster les priorité, ajouter de nouveaux éléments et estimer ceux qui ne l'ont pas été. Cela pour que le Bakclog reste pertinent.
+9. Communication. La partie importante, le partage à toutes les parties prenantes et s'assurer la bonne compréhension.
+#### Construction du Backlog de ce projet
 Voici donc à quoi ressemble le Backlog de ce projet :
 ![alt text](image.png)
+Il est constitué de 4 **EPICS** qui sont eux constitué de **USER STORIES** comme sur l'image supérieur. Un **EPIC** représente une objetif pour l'utilisateur d'un point de vue macro, une **USER STORIES** décrit les exigences pour les fonctionnalités nécessaires: 
+1. Documentation (EPIC)
+   1. Création d'un backlog (USER STORIES) : Lecture du sujet et définition des besoins et spécifications pour le projet.
+   2. Mettre en place un tableau de suivi : Création d'un trello pour suivre l'avancement du projet et fixé des dates limites.
+   3. Rédiger une documentation en markdown : La documentation doit être accessible et facile à suivre pour tous les parties prenants et autre personne extérieurs au projet.
+   4. Suivre des formations et certifications : Une phase formations sur les applications et sites à utiliser dans le projet ainsi que des certifications pour comprendre et savoir utiliser d'autre compétences.
+2. API, application
+   1. En tant qu'administrateur, je veux pouvoir répertorier toutes les machines avec certaines informations : Utilisation d'une API pour récupérer les toutes informations de toutes les machines pour le compte administrateur.
+   2. En tant qu'administrateur, je veux pouvoir mettre à jour les informations des machines : Utilisation d'une API pour mettre à jour les informations des machines.
+   3. En tant qu'utilisateur, je ne veux voir que les machines qui me sont assignées : Utilisation d'une API pour récupérer certaines informations des machines qui lui sont assignées.
+   4. En tant qu'administrateur et utilisateur, je veux pouvoir les trier (!!!pas les mêmes filtres!!!) : Utilisation d'une API pour récupérer certaines informations des machines qui lui sont assignées et qui respectent certains filtres.
+3. Vérification
+   1. Mise en place d'outils de vérification et d'automatisation : Utilisation d'outils de vérification et d'automatisation pour tester les fonctionnalités de l'application.
+   2. Création de VM pour tester l'application : Création d'une VM partagée pour tester l'application et vérifier les fonctionnalités.
+4. Dépoilement et Intégration 
+   1. Création et configuration d'une VM partagée : Création d'une VM partagée pour déployer l'application et vérifier les fonctionnalités.
+   2. Automatisation du déploiement : Utilisation d'outils de CI/CD pour automatiser le déploiement de l'application.
+   3. Test de déploiement
