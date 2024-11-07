@@ -8,7 +8,7 @@ Je développerait également une application exemple sous la forme d'un micro-se
 # Répartition du projet
 Phase 1 : Gestion de projet agile et documentation
    1. Définition du backlog
-   2. Utilisaqtion de trello pour répertorier les ressources, sites et documents utilisé ainsi que d'établir le plan de travail
+   2. Utilisation de trello pour répertorier les ressources, sites et documents utilisé ainsi que d'établir le plan de travail
    3. Explication de la documentation
 
 Phase 2 : Développement de l'application exemple et mise en place de l'environnement de Développement
@@ -71,3 +71,6 @@ Il est constitué de 4 **EPICS** qui sont eux constitué de **USER STORIES** com
    1. Création et configuration d'une VM partagée : Création d'une VM partagée pour déployer l'application et vérifier les fonctionnalités.
    2. Automatisation du déploiement : Utilisation d'outils de CI/CD pour automatiser le déploiement de l'application.
    3. Test de déploiement
+
+### Utilisation de trello pour répertorier les ressources, sites et documents utilisé ainsi que d'établir le plan de travail
+J'ai utilisé Trello pour répertorier les ressources, sites et documents utilisés ainsi que d'établir le plan de travail. Voici, en image, à quoi ressemble le trello : ![alt text](image-1.png) et voici le lien pour y accéder [trello.com] (https://trello.com/invite/b/66d58460f25a074c62a46399/ATTI543ffb3c3eb33389026ff6ec6f4ab1d6069CF7A8/projet-autonome)
