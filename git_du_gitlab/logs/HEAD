@@ -1,0 +1,24 @@
+0000000000000000000000000000000000000000 64ca7efca3cd391b9c16ec02365a184a1da0a293 louisperard <louisperard32@gmail.com> 1731586126 +0100	clone: from https://gitlab.com/projet_iut/projet-autonome.git
+64ca7efca3cd391b9c16ec02365a184a1da0a293 4396bf5a8c753efc5d77c5815fde28c8e1e70121 louisperard <louisperard32@gmail.com> 1731586203 +0100	commit: Passage de github à gitlab
+4396bf5a8c753efc5d77c5815fde28c8e1e70121 0c6fbcf85551ffb0e7426a8a7745d77ed0bc3210 louisperard <louisperard32@gmail.com> 1731587720 +0100	commit: update swagger
+0c6fbcf85551ffb0e7426a8a7745d77ed0bc3210 4396bf5a8c753efc5d77c5815fde28c8e1e70121 louisperard <louisperard32@gmail.com> 1731587758 +0100	checkout: moving from main to sauvegarde-backlog-trello-swagger
+4396bf5a8c753efc5d77c5815fde28c8e1e70121 0c6fbcf85551ffb0e7426a8a7745d77ed0bc3210 louisperard <louisperard32@gmail.com> 1731587855 +0100	checkout: moving from sauvegarde-backlog-trello-swagger to swagger
+0c6fbcf85551ffb0e7426a8a7745d77ed0bc3210 263aef3039ce204ccb8161a63e6999615e68101a louisperard <louisperard32@gmail.com> 1733755147 +0100	commit: Update Backlog.pdf
+263aef3039ce204ccb8161a63e6999615e68101a 21488c6fbbe28cb9ae84830f462c13e68c5f410f louisperard <louisperard32@gmail.com> 1733755721 +0100	commit: Update backlog.png
+21488c6fbbe28cb9ae84830f462c13e68c5f410f 0c6fbcf85551ffb0e7426a8a7745d77ed0bc3210 louisperard <louisperard32@gmail.com> 1733756929 +0100	checkout: moving from swagger to main
+0c6fbcf85551ffb0e7426a8a7745d77ed0bc3210 21488c6fbbe28cb9ae84830f462c13e68c5f410f louisperard <louisperard32@gmail.com> 1733756937 +0100	checkout: moving from main to swagger
+21488c6fbbe28cb9ae84830f462c13e68c5f410f a79d98891b75cb87a1acc42d86b62d3ff06470bd louisperard <louisperard32@gmail.com> 1733759868 +0100	commit: Update swagger
+a79d98891b75cb87a1acc42d86b62d3ff06470bd 3908d08cbe76cf406e2447b24db769dec5e549f4 louisperard <louisperard32@gmail.com> 1733837968 +0100	checkout: moving from swagger to base_de_donnee
+3908d08cbe76cf406e2447b24db769dec5e549f4 0571ac8754456ebcfe9bc3b687c05c213081fa4a louisperard <louisperard32@gmail.com> 1733838841 +0100	commit: update all
+0571ac8754456ebcfe9bc3b687c05c213081fa4a 83ee3fd32bc2db03879804e9fd5fcb941f4977f1 louisperard <louisperard32@gmail.com> 1733839113 +0100	commit: update front
+83ee3fd32bc2db03879804e9fd5fcb941f4977f1 49b3feea7c64ad9a8a85b328cd5392bfc59971e5 louisperard <louisperard32@gmail.com> 1733841549 +0100	checkout: moving from base_de_donnee to back-end
+49b3feea7c64ad9a8a85b328cd5392bfc59971e5 579ee4bc6f92442fd2cf645397d5be0ba8650522 louisperard <louisperard32@gmail.com> 1733847455 +0100	commit: update du back-end
+579ee4bc6f92442fd2cf645397d5be0ba8650522 1cc2f17469aaf08fd7e24c54e91e710220430ddb louisperard <louisperard32@gmail.com> 1733853521 +0100	commit: update backlog
+1cc2f17469aaf08fd7e24c54e91e710220430ddb 49b3feea7c64ad9a8a85b328cd5392bfc59971e5 louisperard <louisperard32@gmail.com> 1733909351 +0100	checkout: moving from back-end to main
+49b3feea7c64ad9a8a85b328cd5392bfc59971e5 1cc2f17469aaf08fd7e24c54e91e710220430ddb louisperard <louisperard32@gmail.com> 1733909352 +0100	checkout: moving from main to back-end
+1cc2f17469aaf08fd7e24c54e91e710220430ddb 20fdb7643e1fa71aeb4c41d4cf58554229e42439 louisperard <louisperard32@gmail.com> 1733928365 +0100	checkout: moving from back-end to main
+20fdb7643e1fa71aeb4c41d4cf58554229e42439 20fdb7643e1fa71aeb4c41d4cf58554229e42439 louisperard <louisperard32@gmail.com> 1733928375 +0100	checkout: moving from main to front-end
+20fdb7643e1fa71aeb4c41d4cf58554229e42439 85d540f32aef09be3cee549294771389f332a7cc louisperard <louisperard32@gmail.com> 1733928383 +0100	commit: update front-end
+85d540f32aef09be3cee549294771389f332a7cc 20fdb7643e1fa71aeb4c41d4cf58554229e42439 louisperard <louisperard32@gmail.com> 1734000115 +0100	checkout: moving from front-end to main
+20fdb7643e1fa71aeb4c41d4cf58554229e42439 20fdb7643e1fa71aeb4c41d4cf58554229e42439 louisperard <louisperard32@gmail.com> 1734000223 +0100	checkout: moving from main to gitlab
+20fdb7643e1fa71aeb4c41d4cf58554229e42439 20fdb7643e1fa71aeb4c41d4cf58554229e42439 louisperard <louisperard32@gmail.com> 1734000290 +0100	checkout: moving from gitlab to main

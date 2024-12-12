@@ -1,0 +1,36 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://gitlab.com/projet_iut/projet-autonome.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[lfs]
+	repositoryformatversion = 0
+[branch "sauvegarde-backlog-trello-swagger"]
+	remote = origin
+	merge = refs/heads/sauvegarde-backlog-trello-swagger
+[branch "swagger"]
+	remote = origin
+	merge = refs/heads/swagger
+[branch "base_de_donnee"]
+	remote = origin
+	merge = refs/heads/base_de_donnee
+[branch "back-end"]
+	remote = origin
+	merge = refs/heads/back-end
+[branch "front-end"]
+	remote = origin
+	merge = refs/heads/front-end
+	vscode-merge-base = origin/front-end
+[branch "gitlab"]
+	remote = origin
+	merge = refs/heads/gitlab
