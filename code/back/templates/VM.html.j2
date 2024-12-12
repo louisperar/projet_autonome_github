@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Affichage des VMs</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            header {
+                background: #35424a;
+                color: #ffffff;
+                padding: 10px 0;
+                text-align: center;
+            }
+            main {
+                padding: 20px;
+            }
+            footer {
+                text-align: center;
+                padding: 10px 0;
+                background: #35424a;
+                color: #ffffff;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            form {
+                max-width: 400px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+            }
+            label {
+                margin-bottom: 5px;
+                margin-top: 15px;
+            }
+            input {
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+            }
+            button {
+                padding: 10px;
+                background-color: #35424a;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenue sur l'accueil</h1>
+        </header>
+        <main>
+            <h2>Bienvenue sur l'accueil</h2>
+            <p>
+                Ci-dessous,<br>
+                Vous trouverez la listes des VMs avec leur données :
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nom</th>
+                        <th>Etat</th>
+                        <th>IP</th>
+                        <th>Ram</th>
+                        <th>Stockage</th>
+                        <th>Creer_le</th>
+                        <th>Modifier_le</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for VM in liste %}
+                        <tr>
+                            <td>{{ VM[0] }}</td>
+                            <td>{{ VM[1] }}</td>
+                            <td>{{ VM[2] }}</td>
+                            <td>{{ VM[3] }}</td>
+                            <td>{{ VM[4] }}</td>
+                            <td>{{ VM[5] }}</td>
+                            <td>{{ VM[6] }}</td>
+                            <td>{{ VM[7] }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <p>
+                Et ici,<br>
+                Vous pourrez modifier les informations d'une VM ou obtenir les informations de celle-ci en rentrant seulement l'identifiant :
+            </p>
+            <form method="POST" action="/VMs/<id>">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required>
+
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom">
+
+                <label for="etat">État:</label>
+                <input type="text" id="etat" name="etat">
+
+                <label for="ip">IP:</label>
+                <input type="text" id="ip" name="ip">
+
+                <label for="ram">RAM:</label>
+                <input type="text" id="ram" name="ram">
+
+                <label for="stockage">Stockage:</label>
+                <input type="text" id="stockage" name="stockage">
+
+                <button type="submit">Soumettre</button>
+            </form>
+            <p>
+                Et ici,<br>
+                Vous pourrez supprimer une VM en rentrant l'identifiant :
+            </p>
+            <form method="POST" action="/VMs/delete/<id>">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required>
+
+                <button type="submit">Soumettre</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 Mon Site Web</p>
+        </footer>
+    </body>
+</html>

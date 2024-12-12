@@ -1,0 +1,76 @@
+import sqlite3
+import os
+
+# Effacer le fichier de base de données s'il existe déjà
+if os.path.exists("C:/Users/Louis/IUT/IUT_2024-25/projet_autonome_gitlab/projet-autonome/code/back/VM.db"):
+    exit(0)
+
+# Création / ouverture d'une base de données SQLite3
+with sqlite3.connect('C:/Users/Louis/IUT/IUT_2024-25/projet_autonome_gitlab/projet-autonome/code/back/VM.db') as conn:
+    cur = conn.cursor()
+    # Création 
+    cur.execute('''
+                CREATE TABLE IF NOT EXISTS VM (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT, 
+                    nom TEXT, 
+                    etat TEXT, 
+                    ip_addr TEXT, 
+                    ram TEXT, 
+                    stockage TEXT, 
+                    creer_le TEXT, 
+                    modifier_le TEXT)
+                ''')
+
+    # ajouter des données dans la base de données
+    cur.execute("INSERT INTO VM (nom, etat, ip_addr, ram, stockage, creer_le, modifier_le) VALUES (?, ?, ?, ?, ?, ?, ?)", ("VM_administrateur", "running", "192.168.105.1", "64 Go", "1 To", "20/05/2023", "20/05/2023"))
+
+    # Insertion de données dans la table 'utilisateurs'
+    nouvel_VM = ("VM_management", "stopped", "192.168.105.2", "64 Go", "1 To", "20/05/2023", "20/05/2023")
+    cur.execute("INSERT INTO VM (nom, etat, ip_addr, ram, stockage, creer_le, modifier_le) VALUES (?, ?, ?, ?, ?, ?, ?)", nouvel_VM)
+
+    # Pour insérer plusieurs lignes en une seule requête, utilisez executemany
+    nouvelles_VMs = [("VM_production", "stopped", "192.168.105.3", "64 Go", "5 To", "20/05/2023", "20/05/2023"), ("serveur_compta", "paused", "192.168.105.253", "128 Go", "20 To", "20/05/2023", "20/05/2023"), ("serveur_AD", "running", "192.168.105.254", "128 Go", "20 To", "20/05/2023", "20/05/2023")]
+    cur.executemany("INSERT INTO VM (nom, etat, ip_addr, ram, stockage, creer_le, modifier_le) VALUES (?, ?, ?, ?, ?, ?, ?)", nouvelles_VMs)
+
+    # Validez la transaction et enregistrez les modifications
+    conn.commit()
+
+    # Lire les données de la base de données
+    cur.execute("SELECT * FROM VM")
+    resultat = cur.fetchall()
+
+    # Afficher les données
+    print(" Après l'insertion des données : ".center(80, "-"))
+    for ligne in resultat:
+        print(ligne)
+    print("\n")
+
+    # Mise à jour du champ 'email' pour un utilisateur spécifique
+    VM_id = 1
+    etat = "paused"
+    cur.execute("UPDATE VM SET etat = ? WHERE id = ?", (etat, VM_id))
+    conn.commit()
+
+    # Suppression d'un utilisateur spécifique en fonction de son ID
+    cur.execute("INSERT INTO VM (nom, etat, ip_addr, RAM, stockage, creer_le, modifier_le) VALUES (?, ?, ?, ?, ?, ?, ?)", ("VM_test", "running", "192.168.105.25", "64 Go", "1 To", "20/05/2023", "20/05/2023"))
+    conn.commit()
+
+    cur.execute("SELECT * FROM VM")
+    resultat = cur.fetchall()
+    print(" Après l'ajout d'une VM' : ".center(80, "-"))
+    for ligne in resultat:
+        print(ligne)
+    print("\n")
+
+    utilisateur_id = 6
+    cur.execute("DELETE FROM VM WHERE id = ?", (utilisateur_id,))
+    conn.commit()
+
+    # Lire les données de la base de données
+    cur.execute("SELECT * FROM VM")
+    resultat = cur.fetchall()
+
+    # Afficher les données
+    print(" Après la mise à jour et la suppression des données : ".center(80, "-"))
+    for ligne in resultat:
+        print(ligne)
